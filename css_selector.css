@@ -1,0 +1,24 @@
+/* Selector Types */
+/* 1. Tag selector */ 
+/* 2. ID Selector */
+/* 3. Class Selector */
+/* 4. Parent Child relationship */
+/* 5. Pseudo Selector */
+
+selector { 
+    property:value
+ }
+
+ h1 {
+     color: #fff;
+ }
+
+#container li:hover {
+    color:blue;
+}
+
+#container .box1 li {
+    color:#fff;
+    color:rgb(red, green, blue);
+}
+

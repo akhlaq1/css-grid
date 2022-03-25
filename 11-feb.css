@@ -1,0 +1,77 @@
+/* Syntax */
+
+/* selector {
+    Property:Value;
+} */
+
+/* Selector Types */
+/* 1. Tag selector */ 
+/* 2. ID Selector */
+/* 3. Class Selector */
+/* 4. Parent Child relationship */
+/* 5. Pseudo Selector */
+
+/* CSS Properties */
+
+/* 1. color */
+/* 2. background-color */
+/* 3. font-size  -- units 1px, 1em, 1rem */
+/* 4. font-weight */
+
+/* CSS Units */
+
+/* Boxes */
+/* px - pixels */
+/* % - percentage */
+/* vw - Viewport Width*/
+/* vh - viewport height */
+
+
+/* TEXT */
+
+/* px */
+/* 1em - 16px */
+/* rem */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+
+p {
+    font-size: 2rem;
+    font-weight: lighter;
+    /* font-family: 'Syne Tactile', cursive; */
+    font-style: oblique;
+    text-transform: lowercase;
+    line-height:3rem;
+
+}
+
+#mypara {
+    font-family: 'Festive', cursive;
+}
+a {
+    text-decoration: none;
+    color
+}
+
+
+/* h1{
+    color: blue;
+    
+}
+span {
+    color: red;
+}
+
+#parent {
+    width: 40%; 
+    height: 50vh;
+    background-color: red;
+}
+
+#child {
+    width: 50%; 
+    height: 50%;
+    background-color: blue;
+} */

@@ -1,0 +1,17 @@
+.box {
+    border: 3px solid green;
+    height: 200px;
+    width: 100%;
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        "box1 box1 box1"
+    ;
+}

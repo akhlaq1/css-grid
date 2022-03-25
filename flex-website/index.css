@@ -1,0 +1,97 @@
+/* Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Syne+Tactile&display=swap');
+
+
+/* Universal Properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========  HOME SECTION START ========== */
+
+#home {
+    min-height: 80vh;
+   
+}
+
+#home .container {
+    display: flex;
+    align-items: center;
+}
+
+#home .imageContainer {
+    flex: 1;
+    padding: 100px 50px;
+}
+
+#home .content {
+    flex: 1;
+    padding: 0 80px;
+
+}
+
+#home .content button {
+    background-color: blue;
+    border: none;
+    color: #fff;
+    margin: 30px 0;
+    padding: 20px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#home .content button:hover {
+    background-color: rgb(58, 58, 122);
+    transition: 0.4s;
+}
+
+#home .content h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: blue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#home .content h3{
+    margin-bottom: 10px;
+  
+}
+#home .content p {
+    text-align: justify;
+}
+
+#home .imageContainer img {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+@media (max-width:600px) {
+    #home .container {
+        display: block;
+    }
+}
+
+/* ========  HOME SECTION Ends ========== */
+
+/* ========  Services SECTION START ========== */
+
+#services {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+#services .container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ========  Services SECTION End ========== */
